@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Description></Description>
+    <PackageProjectUrl>https://github.com/Codeer-Software/Blazor.KHandyInterop</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Codeer-Software/Blazor.KHandyInterop</RepositoryUrl>
+    <PackageTags></PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StaticWebAssetFingerprintingEnabled>false</StaticWebAssetFingerprintingEnabled>
+    <StaticWebAssetsFingerprintContent>false</StaticWebAssetsFingerprintContent>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="8.0.8" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.8" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
+	</ItemGroup>	
+</Project>
